@@ -1,48 +1,48 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 h1 {
-  text-align: center;
+    text-align: center;
 }
 
+/* Table Styling */
 table {
-  width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse;
-  border: 1px solid black;
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+    cell-spacing: 1px;
+    cell-padding: 1px;
 }
 
 td {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: left;
+    border: 1px solid black;
+    padding: 10px;
 }
 
+/* Alignment Classes */
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .right {
-  text-align: right;
+    text-align: right;
 }
 
+/* Background Colors */
 .green {
-  background-color: green;
-  height: 20px;
+    background-color: green;
 }
 
 .blue {
-  background-color: blue;
-  height: 20px;
+    background-color: blue;
 }
 
-#t-image {
-  text-align: center;
-}
-
-img {
-  display: block;
-  margin: auto;
-}
+/* Image Styling */
+#t-image img {
+    width: 300px;
+    height: auto;
+   
